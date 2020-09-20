@@ -17,7 +17,7 @@ public class Solution {
         
         float result[];
         result = new float[3];
-        //in this for loop we are calculating that how many positive, negative and zero numbers. 0 index for positive, 1 index of negative, 2 index for zero numbers.
+        //in this for loop we are calculating that how many positive, negative and zero numbers. 0 index for positive, 1 index for negative, 2 index for zero numbers.
         for(int i : arr){
             if(i>0){
                 result[0] ++;
